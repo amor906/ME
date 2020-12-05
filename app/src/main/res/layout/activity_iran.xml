@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Iran">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Iran, also called Persia, officially the Islamic Republic of Iran is a country in Western Asia. It is bordered to the northwest by Armenia and Azerbaijan, to the north by the Caspian Sea, to the northeast.Iran has held its modern territory since the Treaty of Paris in 1857. From 1906 until 1950, Iran was divided into twelve provinces: Ardalan, Azerbaijan, Baluchestan, Fars, Gilan, Araq-e Ajam, Khorasan, Khuzestan, Kerman, Larestan, Lorestan, and Mazandaran.The topography of Iran consists of rugged, mountainous rims surrounding high interior basins. The main mountain chain is the Zagros Mountains, a series of parallel ridges interspersed with plains that bisect the country from northwest to southeast."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="198dp"
+        android:text="Time: GMT+3:30                                                                 In Tehran, the summers are hot, arid, and clear and the winters are very cold, dry, and mostly clear. Over the course of the year, the temperature typically varies from 34°F to 97°F and is rarely below 26°F or above 102°F."
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="433dp"
+        android:layout_height="274dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_iran"
+        tools:srcCompat="@drawable/flag_iran" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

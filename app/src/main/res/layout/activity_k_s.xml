@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KSA">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Saudi Arabia, officially the Kingdom of Saudi Arabia, is a country in Western Asia constituting the bulk of the Arabian Peninsula.Literacy rate, adult total (% of people ages 15 and above) in Saudi Arabia was reported at 95.33 % in 2017, according to the World Bank collection of development indicators, compiled from officially recognized sources.Trade: The top exports of Saudi Arabia are Crude Petroleum ($165B), Refined Petroleum ($23.9B), Ethylene Polymers ($12.5B), Propylene Polymers ($6.33B), and Acyclic Alcohols ($5.14B)."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="198dp"
+        android:text="Time: GMT+3                                                                 In Riyadh, the summers are long, sweltering, and arid; the winters are cool and dry; and it is mostly clear year round. Over the course of the year, the temperature typically varies from 49°F to 110°F and is rarely below 41°F or above 114°F."
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="433dp"
+        android:layout_height="274dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_saudi_arabia"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

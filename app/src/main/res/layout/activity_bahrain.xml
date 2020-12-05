@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bahrain">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Bahrain, officially the Kingdom of Bahrain, is a sovereign state in the Persian Gulf. The island nation comprises a small archipelago made up of 51 natural islands and an additional 33 artificial islands, centered around Bahrain Island which makes up around 83 percent of the country's landmass.Generally speaking, Bahrain is safe to visit, as crime rates in Bahrain are relatively low and violent crime is rare. And even though this is the case, you shouldn't let your guard down and relax completely because burglary, petty theft, and robberies are the most common forms of crime in this country.Bahrain, small Arab state situated in a bay on the southwestern coast of the Persian Gulf. It is an archipelago consisting of Bahrain Island and some 30 smaller islands."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        android:text="Time: GMT+3                                                                 Bahrain features an arid climate. Bahrain has two seasons: an extremely hot summer and a relatively mild winter. During the summer months, from April to October, afternoon temperatures average 39 °C (102 °F) and can reach 46 °C (114.8 °F) during June and July."
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="447dp"
+        android:layout_height="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_of_bahrain"
+        tools:srcCompat="@drawable/flag_of_bahrain" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

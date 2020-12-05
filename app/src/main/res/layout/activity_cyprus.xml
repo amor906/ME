@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cyprus">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Cyprus, officially called the Republic of Cyprus, is an island country in the Eastern Mediterranean. It is the third largest and third most populous island in the Mediterranean, and is located north of Egypt; northwest of Lebanon, Palestine, and Israel; west of Syria; southeast of Greece; and south of Turkey. The Kingdom of Cyprus (French: Royaume de Chypre, Greek: Βασίλειον τῆς Κύπρου, romanized: Vasíleion tîs Kýprou) existed between 1192 and 1489. It was ruled by the French House of Lusignan.A wide range of crops were grown on Cyprus. Cereals (wheat and barley), legumes, vegetables (carrots, potatoes, and tomatoes), fruit and other tree crops (almonds, apples, bananas, carobs, grapes, grapefruit, lemons, melons, olives, oranges, and peaches). Crops were rainfed or irrigated."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        android:text="Time: GMT+2                                                                 Cyprus enjoys a warm, Mediterranean climate that's characterised by the region's long, hot summers and mild, wet winters. Temperatures generally range from winter lows of 17°C to warm highs of 31°C in the summer. The warmest month is August, but it's usually very warm."
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="447dp"
+        android:layout_height="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_of_cyprus"
+        tools:srcCompat="@drawable/flag_of_cyprus" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

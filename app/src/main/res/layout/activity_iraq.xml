@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Iraq">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Iraq, officially the Republic of Iraq, is a country in Western Asia, bordered by Turkey to the north, Iran to the east, Kuwait to the southeast, Saudi Arabia to the south, Jordan to the southwest and Syria to the west. The capital and largest city is Baghdad.The most recent imports of Iraq are led by Broadcasting Equipment ($3.76B), Jewellery ($2.28B), Cars ($1.67B), Rolled Tobacco ($1.66B), and Refined Petroleum ($1.62B). The most common import partners for Iraq are United Arab Emirates ($11.3B), Turkey ($8.35B), China ($7.92B), South Korea ($1.91B), and India ($1.85B)."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="198dp"
+        android:text="Time: GMT+3                                                                 The average temperatures in Iraq range from higher than 48 degree C (120 Fahrenheit) in July and August to below freezing in January. A majority of the rainfall occurs from December through April and is more abundant in the mountainous region and may reach 100 centimeters a year in some places."
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="433dp"
+        android:layout_height="274dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_of_iraq"
+        tools:srcCompat="@drawable/flag_of_iraq" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

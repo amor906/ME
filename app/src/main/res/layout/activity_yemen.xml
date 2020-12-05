@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yemen">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="Yemen, officially the Republic of Yemen, is a country at the southern end of the Arabian Peninsula in Western Asia. It is the second-largest Arab sovereign state in the peninsula, occupying 527,970 square kilometres. The coastline stretches for about 2,000 kilometres.                                                                      Geography Yemen occupies the southern end of the Arabian Plate. The country's mountainous interior is surrounded by narrow coastal plains to the west, south, and east and by upland desert to the north along the border with Saudi Arabia.                                              Region The regions would be Azal, Saba, Janad and Tihama in the north, Aden and Hadramawt in the south. Sana'a will have a special status and not be part of any region. Aden, the former southern capital, would also have a special status but will be part of Aden region."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="198dp"
+        android:text="Time: GMT+3                                                                Weather and climate The southern coastal areas see limited rainfall and are hot and humid year round, summer temperatures sometimes topping 54°C (129°F). The central highlands are hot in summer with average temperatures of 30°C (86°F), but winters are cold with frequent frosts.  "
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="431dp"
+        android:layout_height="274dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_of_yemen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.me">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ME">
+        <activity android:name=".email_class"></activity>
+        <activity android:name=".Bahrain" />
+        <activity android:name=".Cyprus" />
+        <activity android:name=".Egypt" />
+        <activity android:name=".Iran" />
+        <activity android:name=".Iraq" />
+        <activity android:name=".Jordan" />
+        <activity android:name=".Kuwait" />
+        <activity android:name=".Lebanon" />
+        <activity android:name=".Oman" />
+        <activity android:name=".Palestine" />
+        <activity android:name=".Qatar" />
+        <activity android:name=".KSA" />
+        <activity android:name=".Syria" />
+        <activity android:name=".Turkey" />
+        <activity android:name=".UAE" />
+        <activity android:name=".Yemen" />
+        <activity android:name=".MainActivityA" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEND" />
+                <data android:type="*/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO" />
+                <data android:scheme="mailto" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

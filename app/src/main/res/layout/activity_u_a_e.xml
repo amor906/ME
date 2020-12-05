@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UAE">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="390dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="344dp"
+            android:layout_marginBottom="16dp"
+            android:text="The United Arab Emirates, sometimes simply called the Emirates, is a sovereign state in Western Asia located at the eastern end of the Arabian Peninsula. It borders Oman and Saudi Arabia, and has maritime borders in the Persian Gulf with Qatar and Iran. According to the CIA’s World Factbook, the UAE has a total surface area of 83,600 square kilometres, comparable to that of Austria or Azerbaijan. The UAE can be divided into three geographical zones: a flat, low-lying, barren coastal plain; rolling sand dunes that stretch from the coast into the expanse of a vast desert wasteland that blends into the Empty Quarter (al-Rub al-Khali), the world’s largest sand desert; and a rugged mountain range, shared with Oman, in the north and east. While parts of these mountains are bare, other parts, such as the Jabal al-Akhdar, have vegetation. The UAE’s highest point is the top of Jabal Yibir, at 1,527 metres."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#020000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="385dp"
+        android:layout_height="198dp"
+        android:text="Time: GMT+4                                                                Weather and climate The southern coastal areas see limited rainfall and are hot and humid year round, summer temperatures sometimes topping 54°C (129°F). The central highlands are hot in summer with average temperatures of 30°C (86°F), but winters are cold with frequent frosts.  "
+        android:textColor="#0B0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="431dp"
+        android:layout_height="274dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flag_of_the_united_arab_emirates" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
